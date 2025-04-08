@@ -96,7 +96,7 @@ public class app {
          JOptionPane.showMessageDialog(null,"La matriz es la siguiente:\n"+finalMessageString , null,1);
 
          JOptionPane.showMessageDialog(null,"La sumatoria es: "+sum , null,1);
-         float promedio=(sum/(x*y));
+         float promedio=(float) sum/(x*y);
          JOptionPane.showMessageDialog(null,"El promedio fue: "+promedio , null,1);
             
     }
